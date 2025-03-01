@@ -1,9 +1,13 @@
 import React from 'react'
 
 const Login = () => {
-  return (
+  const handleLogin = () => {
+    console.log("login")
+  }
+  
+    return (
     <div>
-      Login
+      <form onSubmit={handleLogin}></form>
     </div>
   )
 }
