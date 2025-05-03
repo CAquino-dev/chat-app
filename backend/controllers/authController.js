@@ -63,7 +63,7 @@ const loginUser = (req, res) => {
             { expiresIn: "1hr" }
         );
 
-        res.json({ message: "Login successful", token });
+        res.json({ message: "Login successful", token, user });
     })
         
   };
